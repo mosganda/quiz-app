@@ -1,0 +1,68 @@
+.start-container {
+    width: 500px;
+     height: 500px;
+     background-color: white;
+     max-width: 90%;
+     padding: 5px;
+     box-shadow: 0 0 10px 4px;
+}
+.answer-btns {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    padding-left: 5px;
+    border: 1px solid #cd96cd;
+}
+.answer-btns:hover {
+    border: 2px solid #9b30ff;
+    cursor: pointer;
+}
+.option {
+    background-color: #7d26cd;
+    color:white;
+    padding: 5px 7px;
+}
+.option-text {
+    margin-left: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.correct {
+    background-color: green;
+}
+.incorrect {
+    background-color: red;
+}
+#display {
+    display: flex;
+    justify-content: space-around;
+}
+.item1 {
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+}
+#progress-text {
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+#progress-Bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+#progress-Bar-content {
+    height: 18px;
+    background-color: purple;
+    width: 0%;
+}
+#label {
+    text-align: center;
+    line-height: 18px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

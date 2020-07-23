@@ -1,0 +1,17 @@
+#prev-score-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+.prev-scores {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.prevScores:hover {
+    transform: scale(1.025);
+}
+#finalScore {
+    color: white;
+    font-size: 25px;
+}
