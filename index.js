@@ -196,10 +196,10 @@ nextQuestion = () => {
     }
     questionNumber++;
     //for the progress text
-    progress_text.innerText = `Question ${questionNumber}/${total_questions}`;
+    progress_text.innerText = `Question ${questionNumber} of ${total_questions}`;
     //for the progress bar
     progress_Bar_content.style.width = `${(questionNumber/total_questions) * 100}%`;
-    label.innerText = `${(questionNumber/total_questions) * 100}%`;
+    label.innerText = parseInt(`${(questionNumber/total_questions) * 100}`) + '%';
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.Question;

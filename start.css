@@ -1,6 +1,6 @@
 .start-container {
     width: 500px;
-     height: 500px;
+     height: 550px;
      background-color: white;
      max-width: 90%;
      padding: 5px;
@@ -65,4 +65,22 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
+}
+
+.mybtns {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.mybtns a{
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    margin:5px;
+    font-size: 18px;
+}
+.mybtns a:hover {
+    border: 2px solid black;
 }
