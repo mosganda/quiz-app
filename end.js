@@ -7,7 +7,7 @@ const prevScores = JSON.parse(localStorage.getItem("prevScores")) || [];
 
 
 
-yourScore.innerText = "Your score is: " + recentScore;
+yourScore.innerText = "Your score is: " + recentScore + "/100";
 username.addEventListener('keyup', () =>{
   
     saveScore.disabled = !username.value;
